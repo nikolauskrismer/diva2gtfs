@@ -7,7 +7,7 @@ use DBI;
 #use Date::Holidays;
 #use Geo::GeoNames;
 #use Date::Holidays::AT;
-use Date::Holidays::DE;
+use Date::Holidays::DE qw(holidays);
 use File::Path qw(make_path);
 
 my $dbh;
